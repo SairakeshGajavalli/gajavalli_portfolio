@@ -13,29 +13,29 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="flex items-center justify-center gap-2 mb-6 animate-slide-up">
           <Code className="text-blue-400 animate-glow" />
-          <span className="text-gray-400">Welcome to my portfolio</span>
+          <span className="text-gray-400">Step Into My World</span>
           <Code className="text-blue-400 animate-glow" />
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-          Full Stack Developer
+          Sairakesh Gajavalli
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-slide-up" style={{ animationDelay: '0.4s' }}>
-          Crafting robust web applications from front-end to back-end
+        Crafting full-stack web applications that work.
           <Sparkles className="inline-block ml-2 text-yellow-400 animate-glow" />
         </p>
         
         <div className="flex gap-6 justify-center mb-12 animate-slide-up" style={{ animationDelay: '0.6s' }}>
-          <a href="https://github.com" 
+          <a href="https://github.com/SairakeshGajavalli" 
              className="p-3 hover:text-blue-400 transition-all hover:scale-110 hover:rotate-6">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" 
+          <a href="https://www.linkedin.com/in/sairakeshg/" 
              className="p-3 hover:text-blue-400 transition-all hover:scale-110 hover:-rotate-6">
             <Linkedin size={24} />
           </a>
-          <a href="mailto:your.email@example.com" 
+          <a href="mailto:convey2sairakesh@gmail.com" 
              className="p-3 hover:text-blue-400 transition-all hover:scale-110 hover:rotate-6">
             <Mail size={24} />
           </a>

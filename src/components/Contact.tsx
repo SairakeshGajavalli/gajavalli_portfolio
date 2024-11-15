@@ -39,9 +39,9 @@ export default function Contact() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {[
-            { icon: Mail, title: "Email", text: "your.email@example.com", href: "mailto:your.email@example.com" },
-            { icon: Linkedin, title: "LinkedIn", text: "Connect with me", href: "https://linkedin.com" },
-            { icon: Github, title: "GitHub", text: "See my code", href: "https://github.com" }
+            { icon: Mail, title: "Email", text: "your.email@example.com", href: "mailto:convey2sairakesh@gmail.com" },
+            { icon: Linkedin, title: "LinkedIn", text: "Connect with me", href: "https://www.linkedin.com/in/sairakeshg/" },
+            { icon: Github, title: "GitHub", text: "See my code", href: "https://github.com/SairakeshGajavalli" }
           ].map((item, index) => (
             <a
               key={item.title}

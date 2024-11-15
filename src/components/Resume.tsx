@@ -47,7 +47,7 @@ export default function Resume() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-8 animate-slide-up">Resume</h2>
           <a
-            href="/path-to-your-resume.pdf"
+            href="/Resume.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-semibold transform hover:scale-105 transition-all duration-300"
           >
             <FileText size={20} />
